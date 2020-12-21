@@ -1,0 +1,206 @@
+* {
+    margin: 0 auto; 
+    padding: 0; 
+}
+body {
+    font-family: consolas;
+    padding: 0px;
+}
+ 
+#back_Video { 
+	position : fixed;
+	top : 0; 
+	left : 0;
+	min-width : 100%;
+	min-height : 100%;
+	width : auto;
+	height : auto;
+	z-index : -1;
+}
+  
+/* 컨테이너 */
+#container {
+    width: 1440px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 70px;
+}
+.title_line {
+    position: relative;
+    width: 160px;
+    height: 2px;
+    top: -18px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow:
+    0 1px 1px #c0c0c0,
+    0 2px 0 #a8a7a6,
+    0 3px 0 #8b8a89;
+}
+
+  
+/* 헤더 */
+#header {
+    position: fixed;
+    z-index: 1;
+    width: 1440px;
+    height: 70px;
+    top:0;
+    align-items: center;
+    display: flex;
+    justify-content: first baseline;
+}
+  
+/* 헤더 메뉴 */
+#header > h2 {
+    margin-left: 30px;
+}
+#head_Title {
+    color: rgb(240, 204, 210);
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 2px 6px black;
+}
+#head_Title:hover {
+    color: rgb(250, 173, 186);
+}
+#header > nav {
+    margin-left: -800px;
+}
+#header > nav > span {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 6px black;
+}
+#header > nav > span:hover {
+    color: rgb(127, 136, 212);
+}
+  
+/* 본문내용 */
+#content {
+    justify-content: center;
+    text-align: center; 
+}
+
+/* 비디오 제목 */
+#cinema_title {
+    width: 85%;
+    margin-top: 160px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow:
+      0 1px 1px #c0c0c0,
+      0 2px 0 #a8a7a6,
+      0 3px 0 #8b8a89;
+    font-family: 'Gaegu', cursive;
+}
+
+/* 비디오 */
+#cinema {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: auto;
+    width: 85%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(248, 241, 241, 0.5);
+    border-radius: 30px;
+}
+#cinema > div {
+    width: 590px;
+}
+#cinema > div > video {
+    margin-top: 2px;
+    width: 590px;
+    height: 500px;
+    background-color: black;
+    border: 3px solid rgb(56, 53, 53);
+    box-shadow: 2px 2px 6px black;
+    border-radius: 20px;
+}
+#cinema > div > div {
+    margin-left: 9px;
+    margin-top: 10px;
+    position: relative;
+}
+#video_title {
+    position: relative;
+    top: 2px;
+    color: rgb(14, 13, 13);
+    text-shadow: 2px 2px 6px grey;
+    font-size: 20px;
+    font-family: 'Gamja Flower', cursive;
+}
+.last_video {
+    margin-bottom: 5px;
+}
+
+.more_Btn {
+    width: 85%;
+}
+.more_Btn > span {
+    font-weight: bold;
+    font-size: small;
+    text-shadow: 2px 2px 6px grey;
+    float: right;
+}
+.more_Btn > span:hover {
+    color:rgb(0, 119, 255);
+}
+#less_Btn {
+    font-weight: bold;
+    font-size: small;
+    text-shadow: 2px 2px 6px grey;
+}
+#less_Btn:hover {
+    color:rgb(255, 8, 0);
+}
+
+
+
+
+/* 푸터 */
+#fake_Footer {
+    width: auto;
+    height: 200px;
+    margin-top: 100px;
+    background-color: rgb(82, 80, 80, 0.9);
+  }
+  #footer {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin-left: -40px;
+    margin-top: 100px;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+  }
+  #foot_title {
+    color: rgb(240, 204, 210);
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px 6px white;
+    margin-bottom: 10px;
+  }
+  #assist {
+    color: rgb(187, 228, 161);
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px 6px black;
+  }
+  #write {
+    color: rgb(104, 167, 240);
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px 6px black;
+  }
+  #footer > div {
+    margin-top: 50px;
+  }

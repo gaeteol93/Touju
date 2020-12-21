@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+		  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+          crossorigin="anonymous" />
+    <link rel="stylesheet" href="CSS/index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+    <title>Lovely Touju</title>
+</head>
+<body>
+    
+<div class="" id="container">
+
+<!-- 배경 이미지 -->
+<img src="image/maltese01.jpg" id="backImg">
+
+<div class="" id="header">
+    <h2>
+        <span class="btn" id="head_Title">Lovely Touju</span>
+    </h2>
+    <nav>
+        <span class="btn" id="head_home">Home</span>
+        <span class="btn" id="head_about">About</span>
+        <span class="btn" id="head_gallery">Gallery</span>
+        <span class="btn" id="head_video">Cinema</span>
+    </nav>
+</div>
+
+<div id="content">
+
+    <!-- 설명 -->
+    <div id="about_Title">Touju</div>
+    <hr class="title_line">
+
+    <div id="about">
+        
+        <div class="img_slide" id="info_Img">
+            <div id="img_Slider" class="carousel slide img_slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#img_Slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#img_Slider" data-slide-to="1"></li>
+                </ol>
+
+                <div class="carousel-inner img_slide">
+                    <div class="carousel-item active img_slide">
+                        <img class="img_slide" src="image/welcome02.jpg" title="뚜쥬사진3">
+                        <div class="carousel-caption">
+                            <p id="text">첫만남</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img_slide" src="image/welcome01.jpg" title="뚜쥬사진2">
+                        <div class="carousel-caption">
+                            <p id="text">뚜레쥬르 앞에서의 인연</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#img_Slider" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon rounded-circle bg-dark" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#img_Slider" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon rounded-circle bg-dark" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <div id="info_Space"></div>
+
+        <div id="info_Box">
+            <img src="image/final01.jpg" title="잘자렴">
+            <div>그리고, 마지막</div>
+        </div>
+    </div>
+
+
+    <!-- 이미지 카테고리 제목 -->
+    <div id="image_Title">Best Gallery</div>
+    <hr class="title_line2">
+
+    <div class="shadow" id="bestImg">
+
+        <div id="bestImg_Slider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#bestImg_Slider" data-slide-to="0" class="active"></li>
+                <li data-target="#bestImg_Slider" data-slide-to="1"></li>
+                <li data-target="#bestImg_Slider" data-slide-to="2"></li>
+                <li data-target="#bestImg_Slider" data-slide-to="3"></li>
+                <li data-target="#bestImg_Slider" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <figure class="snip1273">
+                        <div type="button" data-toggle="modal" data-target="#bestImg01">
+                            <img src="imgBest/몽실몽실.PNG">
+                            <figcaption>
+                                <h4>북극곰 뚜쥬</h4>
+                            </figcaption>
+                        </div>
+                    </figure>
+                </div>
+                <div class="carousel-item">
+                    <figure class="snip1273">
+                        <div type="button" data-toggle="modal" data-target="#bestImg02">
+                            <img src="imgBest/무슨일이야.jpg">
+                            <figcaption>
+                                <h4>나 불렀어?</h4>
+                            </figcaption>
+                        </div>
+                    </figure>
+                </div>
+                <div class="carousel-item">
+                    <figure class="snip1273">
+                        <div type="button" data-toggle="modal" data-target="#bestImg03">
+                            <img src="imgBest/뭘봐.jpg">
+                            <figcaption>
+                                <h4>이쁜짓~</h4>
+                            </figcaption>
+                        </div>
+                    </figure>
+                </div>
+                <div class="carousel-item">
+                    <figure class="snip1273">
+                        <div type="button" data-toggle="modal" data-target="#bestImg04">
+                            <img src="imgBest/어휴 왜 저래.PNG">
+                            <figcaption>
+                                <h4>뭐얌</h4>
+                            </figcaption>
+                        </div>
+                    </figure>
+                </div>
+                <div class="carousel-item">
+                    <figure class="snip1273">
+                        <div type="button" data-toggle="modal" data-target="#bestImg05">
+                            <img src="imgBest/퉤퉷.jpg">
+                            <figcaption>
+                                <h4>메롱~</h4>
+                            </figcaption>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#bestImg_Slider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon rounded-circle bg-dark" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#bestImg_Slider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon rounded-circle bg-dark" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- 메인 이미지 -->
+    <div class="shadow" id="image">
+        <!-- 1번째 컨텐츠 -->
+        <figure class="snip1445">
+            <div type="button" data-toggle="modal" data-target="#best01">
+                <img src="img/간디뚜쥬.jpg">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#간디</span>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="snip1445">
+            <div type="button" data-toggle="modal" data-target="#best02">
+                <img src="img/나 삐져또.JPG">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#나 삐져또</span>
+                    <span class="badge badge-pill badge-light">#맛있는거 줘</span>
+                    <span class="badge badge-pill badge-light">#삐짐</span>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="snip1445">
+            <div type="button" data-toggle="modal" data-target="#best03">
+                <img src="img/먹는게 제일 좋아.PNG">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#엄마</span>
+                    <span class="badge badge-pill badge-light">#주세요~</span>
+                </div>
+            </figcaption>
+        </figure>
+        
+        <figure class="snip1445">
+            <div type="button" data-toggle="modal" data-target="#best04">
+                <img src="img/미어캣2.jpg">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#미어캣</span>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="snip1445">
+            <div type="button" data-toggle="modal" data-target="#best05">
+                <img src="img/미어캣.jpg">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#미어캣2</span>
+                    <span class="badge badge-pill badge-light">#기다림</span>
+                </div>
+            </figcaption>
+        </figure>        
+        <figure class="snip1445">
+            <div type="button" data-toggle="modal" data-target="#best06">
+                <img src="img/팬더뚜쥬.jpg">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#인생샷</span>
+                    <span class="badge badge-pill badge-light">#양재천</span>
+                    <span class="badge badge-pill badge-light">#엄마품</span>
+                    <span class="badge badge-pill badge-light">#화려한조명</span>
+                </div>
+            </figcaption>
+        </figure>
+
+        <figure class="snip1445">
+            <div type="button" data-toggle="modal" data-target="#best07">
+                <img src="img/까꿍.PNG">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#나도 찍어줘</span>
+                    <span class="badge badge-pill badge-light">#까꿍</span>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="snip1445">
+            <div type="button" data-toggle="modal" data-target="#best08">
+                <img src="img/박스의요정.png">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#박스의 요정</span>
+                    <span class="badge badge-pill badge-light">#혀로 코파기</span>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="snip1445">
+            <div type="button" data-toggle="modal" data-target="#best09">
+                <img src="img/나 귀여워.PNG">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#귀여움</span>
+                    <span class="badge badge-pill badge-light">#45도</span>
+                    <span class="badge badge-pill badge-light">#얼짱각도</span>
+                </div>
+            </figcaption>
+        </figure>
+
+        
+        <!-- 2번째 컨텐츠 -->
+        <figure class="snip1445 more_Cts">
+            <div type="button" data-toggle="modal" data-target="#best10">
+                <img src="img/꿈뻑.jpg">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#꿈뻑꿈뻑</span>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="snip1445 more_Cts">
+            <div type="button" data-toggle="modal" data-target="#best11">
+                <img src="img/나만 바라봐.jpg">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#푹신푹신</span>
+                    <span class="badge badge-pill badge-light">#인생샷</span>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="snip1445 more_Cts">
+            <div type="button" data-toggle="modal" data-target="#best12">
+                <img src="img/내 보금자리.heic">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#뭐?</span>
+                </div>
+            </figcaption>
+        </figure>
+
+        <figure class="snip1445 more_Cts">
+            <div type="button" data-toggle="modal" data-target="#best13">
+                <img src="img/내 자리야.jpg">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#내자리야</span>
+                    <span class="badge badge-pill badge-light">#다비켜</span>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="snip1445 more_Cts">
+            <div type="button" data-toggle="modal" data-target="#best14">
+                <img src="img/대기조!.PNG">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#간식</span>
+                    <span class="badge badge-pill badge-light">#주세요</span>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="snip1445 more_Cts">
+            <div type="button" data-toggle="modal" data-target="#best15">
+                <img src="img/따분해.PNG">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#복실복실</span>
+                    <span class="badge badge-pill badge-light">#피곤피곤</span>
+                </div>
+            </figcaption>
+        </figure>
+
+        <figure class="snip1445 more_Cts">
+            <div type="button" data-toggle="modal" data-target="#best16">
+                <img src="img/먹을건가.PNG">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#누가</span>
+                    <span class="badge badge-pill badge-light">#음식</span>
+                    <span class="badge badge-pill badge-light">#소리를</span>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="snip1445 more_Cts">
+            <div type="button" data-toggle="modal" data-target="#best17">
+                <img src="img/뭘봐2.jpg">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#부끄부끄</span>
+                    <span class="badge badge-pill badge-light">#8개</span>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="snip1445 more_Cts">
+            <div type="button" data-toggle="modal" data-target="#best18">
+                <img src="img/므훗.PNG">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#웃음</span>
+                    <span class="badge badge-pill badge-light">#푹신푹신</span>
+                    <span class="badge badge-pill badge-light">#주인 잘자네</span>
+                </div>
+            </figcaption>
+        </figure>
+
+
+        <!-- 3번째 컨텐츠 -->
+        <figure class="snip1445 more_Cts2">
+            <div type="button" data-toggle="modal" data-target="#best19">
+                <img src="img/아련~.PNG">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#아련</span>
+                </div>
+            </figcaption>
+        </figure>        
+        <figure class="snip1445 more_Cts2">
+            <div type="button" data-toggle="modal" data-target="#best30">
+                <img src="img/호피망토 뚜쥬.jpg">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#호피</span>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="snip1445 more_Cts2">
+            <div type="button" data-toggle="modal" data-target="#best21">
+                <img src="img/배보다 뚜쥬.jpg">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#배</span>
+                    <span class="badge badge-pill badge-light">#배</span>
+                </div>
+            </figcaption>
+        </figure>
+
+        <figure class="snip1445 more_Cts2">
+            <div type="button" data-toggle="modal" data-target="#best22">
+                <img src="img/새침.jpg">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#옆태미견</span>
+                    <span class="badge badge-pill badge-light">#새침</span>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="snip1445 more_Cts2">
+            <div type="button" data-toggle="modal" data-target="#best29">
+                <img src="img/좋은아침.jpg">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#귀요미</span>
+                    <span class="badge badge-pill badge-light">#인생샷</span>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="snip1445 more_Cts2">
+            <div type="button" data-toggle="modal" data-target="#best24">
+                <img src="img/시원해.jpg">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#여름</span>
+                    <span class="badge badge-pill badge-light">#덥다 더워</span>
+                </div>
+            </figcaption>
+        </figure>
+
+        <figure class="snip1445 more_Cts2">
+            <div type="button" data-toggle="modal" data-target="#best25">
+                <img src="img/시원해.jpg">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#엄마품</span>
+                    <span class="badge badge-pill badge-light">#행복해</span>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="snip1445 more_Cts2">
+            <div type="button" data-toggle="modal" data-target="#best31">
+                <img src="img/흠냥.JPG">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#꿀잠</span>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="snip1445 more_Cts2">
+            <div type="button" data-toggle="modal" data-target="#best32">
+                <img src="img/사고뭉치.png">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#사고뭉치</span>
+                    <span class="badge badge-pill badge-light">#추억</span>
+                    <span class="badge badge-pill badge-light">#나 잘해찌</span>
+                </div>
+            </figcaption>
+        </figure>
+
+
+        <!-- 4번째 컨텐츠 -->
+        <figure class="snip1445 more_Cts3">
+            <div type="button" data-toggle="modal" data-target="#best28">
+                <img src="img/눈뜨고 자기.PNG">
+            </div>
+            <figcaption>
+                <div>
+                    <span class="badge badge-pill badge-light">#기절</span>
+                    <span class="badge badge-pill badge-light">#숙취</span>
+                </div>
+            </figcaption>
+        </figure>               
+        
+    </div>
+        
+</div> <!-- Content -->
+
+    <div class="more_Btn">
+        <span class="btn" id="more_Btn1">+ 더보기</span>
+        <span class="btn" id="more_Btn2">+ 더보기</span>
+        <span class="btn" id="more_Btn3">+ 더보기</span>
+    </div>
+
+    <div class="less_Btn">
+        <span class="btn" id="less_Btn1">- 닫기</span>
+        <span class="btn" id="less_Btn2">- 닫기</span>
+        <span class="btn" id="less_Btn3">- 닫기</span>
+    </div>
+    
+
+
+
+
+    <!-- 비디오 -->
+    <div id="video_Title">Video</div>
+    <hr class="title_line">
+
+    <div class="shadow" id="video">
+        <div>                
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0h8v6H4V1zm8 8H4v6h8V9zM1 1h2v2H1V1zm2 3H1v2h2V4zM1 7h2v2H1V7zm2 3H1v2h2v-2zm-2 3h2v2H1v-2zM15 1h-2v2h2V1zm-2 3h2v2h-2V4zm2 3h-2v2h2V7zm-2 3h2v2h-2v-2zm2 3h-2v2h2v-2z"/>
+                </svg>
+                <span id="video_title">시원하다 시원해</span>
+            </div>
+            <video controls loop><source src="video/video01.mp4" type="video/mp4"></video>
+        </div>
+        <div>                
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0h8v6H4V1zm8 8H4v6h8V9zM1 1h2v2H1V1zm2 3H1v2h2V4zM1 7h2v2H1V7zm2 3H1v2h2v-2zm-2 3h2v2H1v-2zM15 1h-2v2h2V1zm-2 3h2v2h-2V4zm2 3h-2v2h2V7zm-2 3h2v2h-2v-2zm2 3h-2v2h2v-2z"/>
+                </svg>
+                <span id="video_title">얼렁 주세요</span>
+            </div>
+            <video controls loop><source src="video/video02.MP4" type="video/mp4"></video>
+        </div>
+        <div>                
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0h8v6H4V1zm8 8H4v6h8V9zM1 1h2v2H1V1zm2 3H1v2h2V4zM1 7h2v2H1V7zm2 3H1v2h2v-2zm-2 3h2v2H1v-2zM15 1h-2v2h2V1zm-2 3h2v2h-2V4zm2 3h-2v2h2V7zm-2 3h2v2h-2v-2zm2 3h-2v2h2v-2z"/>
+                </svg>
+                <span id="video_title">산책 갈까?</span>
+            </div>
+            <video controls loop><source src="video/video03.mp4" type="video/mp4"></video>
+        </div>
+        <div>                
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0h8v6H4V1zm8 8H4v6h8V9zM1 1h2v2H1V1zm2 3H1v2h2V4zM1 7h2v2H1V7zm2 3H1v2h2v-2zm-2 3h2v2H1v-2zM15 1h-2v2h2V1zm-2 3h2v2h-2V4zm2 3h-2v2h2V7zm-2 3h2v2h-2v-2zm2 3h-2v2h2v-2z"/>
+                </svg>
+                <span id="video_title">엄마 어딨엉?</span>
+            </div>
+            <video controls loop><source src="video/video04.mp4" type="video/mp4"></video>
+        </div>
+        <div class="last_video">                
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0h8v6H4V1zm8 8H4v6h8V9zM1 1h2v2H1V1zm2 3H1v2h2V4zM1 7h2v2H1V7zm2 3H1v2h2v-2zm-2 3h2v2H1v-2zM15 1h-2v2h2V1zm-2 3h2v2h-2V4zm2 3h-2v2h2V7zm-2 3h2v2h-2v-2zm2 3h-2v2h2v-2z"/>
+                </svg>
+                <span id="video_title">쓰담쓰담</span>
+            </div>
+            <video controls loop><source src="video/video05.mp4" type="video/mp4"></video>
+        </div>
+        <div class="last_video">                
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0h8v6H4V1zm8 8H4v6h8V9zM1 1h2v2H1V1zm2 3H1v2h2V4zM1 7h2v2H1V7zm2 3H1v2h2v-2zm-2 3h2v2H1v-2zM15 1h-2v2h2V1zm-2 3h2v2h-2V4zm2 3h-2v2h2V7zm-2 3h2v2h-2v-2zm2 3h-2v2h2v-2z"/>
+                </svg>
+                <span id="video_title">마지막 벚꽃놀이</span>
+            </div>
+            <video controls loop><source src="video/video06.mp4" type="video/mp4"></video>
+        </div>
+        
+    </div>
+
+    
+    </div> <!-- 컨테이너 -->
+    
+
+
+    <!-- 모달 -->
+
+    <!-- bestImg01 -->
+    <div class="modal fade bd-example-modal-lg" id="bestImg01" tabindex="-1" role="dialog" aria-labelledby="bestImg01Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title float-center" id="bestImg01Label">몽실몽실 털이 오른 뚜쥬</h5>
+                <span class="close btn" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </span>
+            </div>
+            <div class="modal-body">
+                <img class="rounded" src="imgBest/몽실몽실.PNG">
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- bestImg02 -->
+    <div class="modal fade bd-example-modal-lg" id="bestImg02" tabindex="-1" role="dialog" aria-labelledby="bestImg02Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="bestImg02Label">귀요미 뚜쥬</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="imgBest/무슨일이야.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bestImg03 -->
+    <div class="modal fade bd-example-modal-lg" id="bestImg03" tabindex="-1" role="dialog" aria-labelledby="bestImg03Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="bestImg03Label">또 나를 찍고 있니?</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="imgBest/뭘봐.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bestImg04 -->
+    <div class="modal fade bd-example-modal-lg" id="bestImg04" tabindex="-1" role="dialog" aria-labelledby="bestImg04Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="bestImg04Label">또 왜저러고 있니?</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="imgBest/어휴 왜 저래.PNG">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bestImg05 -->
+    <div class="modal fade bd-example-modal-lg" id="bestImg05" tabindex="-1" role="dialog" aria-labelledby="bestImg05Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="bestImg05Label">메롱이나 먹어라!</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="imgBest/퉤퉷.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- best01 -->
+    <div class="modal fade bd-example-modal-lg" id="best01" tabindex="-1" role="dialog" aria-labelledby="best01Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title float-center" id="best01Label">간디 뚜쥬</h5>
+                <span class="close btn" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </span>
+            </div>
+            <div class="modal-body">
+                <img class="rounded" src="img/간디뚜쥬.jpg">
+                <div>
+                    <span class="float-right btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                        </svg>
+                    </span>
+                    <span class="badge badge-pill badge-info">#간디</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- best02 -->
+    <div class="modal fade bd-example-modal-lg" id="best02" tabindex="-1" role="dialog" aria-labelledby="best02Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best02Label">삐져또</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/나 삐져또.JPG">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#나 삐져또</span>
+                        <span class="badge badge-pill badge-info">#맛있는거 줘</span>
+                        <span class="badge badge-pill badge-info">#삐짐</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best03 -->
+    <div class="modal fade bd-example-modal-lg" id="best03" tabindex="-1" role="dialog" aria-labelledby="best03Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best03Label">다 가져와</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/먹는게 제일 좋아.PNG">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#엄마</span>
+                        <span class="badge badge-pill badge-info">#주세요~</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best04 -->
+    <div class="modal fade bd-example-modal-lg" id="best04" tabindex="-1" role="dialog" aria-labelledby="best04Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best04Label">강아지 아닌 미어캣</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/미어캣2.jpg">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#미어캣</span>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best05 -->
+    <div class="modal fade bd-example-modal-lg" id="best05" tabindex="-1" role="dialog" aria-labelledby="best05Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best05Label">강아지 아닌 미어캣2</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/미어캣.jpg">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#미어캣2</span>
+                        <span class="badge badge-pill badge-info">#기다림</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best06 -->
+    <div class="modal fade bd-example-modal-lg" id="best06" tabindex="-1" role="dialog" aria-labelledby="best06Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best06Label">인생샷</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/팬더뚜쥬.jpg">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#인생샷</span>
+                        <span class="badge badge-pill badge-info">#양재천</span>
+                        <span class="badge badge-pill badge-info">#엄마품</span>
+                        <span class="badge badge-pill badge-info">#화려한 조명</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best07 -->
+    <div class="modal fade bd-example-modal-lg" id="best07" tabindex="-1" role="dialog" aria-labelledby="best07Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best07Label">셀카</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/까꿍.PNG">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#나도 찍어줘</span>
+                        <span class="badge badge-pill badge-info">#까꿍</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best08 -->
+    <div class="modal fade bd-example-modal-lg" id="best08" tabindex="-1" role="dialog" aria-labelledby="best08Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best08Label">박스요정</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/박스의요정.png">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#박스의 요정</span>
+                        <span class="badge badge-pill badge-info">#혀로 코파기</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best09 -->
+    <div class="modal fade bd-example-modal-lg" id="best09" tabindex="-1" role="dialog" aria-labelledby="best09Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best09Label">혀 살짝 내밀기</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/나 귀여워.PNG">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#귀요미</span>
+                        <span class="badge badge-pill badge-info">#45도</span>
+                        <span class="badge badge-pill badge-info">#얼짱 각도</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- best10 -->
+    <div class="modal fade bd-example-modal-lg" id="best10" tabindex="-1" role="dialog" aria-labelledby="best10Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best10Label">Young </h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/꿈뻑.jpg">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#꿈뻑꿈뻑</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best11 -->
+    <div class="modal fade bd-example-modal-lg" id="best11" tabindex="-1" role="dialog" aria-labelledby="best11Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best11Label">나만 바라봐~</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/나만 바라봐.jpg">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#푹신푹신</span>
+                        <span class="badge badge-pill badge-info">#인생샷</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best12 -->
+    <div class="modal fade bd-example-modal-lg" id="best12" tabindex="-1" role="dialog" aria-labelledby="best12Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best12Label">마약방석</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/내 보금자리.heic">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#뭐?</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best13 -->
+    <div class="modal fade bd-example-modal-lg" id="best13" tabindex="-1" role="dialog" aria-labelledby="best13Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best13Label">다 비켜</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/내 자리야.jpg">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#내 자리야</span>
+                        <span class="badge badge-pill badge-info">#다 비켜</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best14 -->
+    <div class="modal fade bd-example-modal-lg" id="best14" tabindex="-1" role="dialog" aria-labelledby="best14Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best14Label">간식 대기중</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/대기조!.PNG">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#간식</span>
+                        <span class="badge badge-pill badge-info">#주세요</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best15 -->
+    <div class="modal fade bd-example-modal-lg" id="best15" tabindex="-1" role="dialog" aria-labelledby="best15Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best15Label">따분해</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/따분해.PNG">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#복실복실</span>
+                        <span class="badge badge-pill badge-info">#피곤피곤</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best16 -->
+    <div class="modal fade bd-example-modal-lg" id="best16" tabindex="-1" role="dialog" aria-labelledby="best16Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best16Label">주세요</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/먹을건가.PNG">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#누가</span>
+                        <span class="badge badge-pill badge-info">#음식</span>
+                        <span class="badge badge-pill badge-info">#소리를</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best17 -->
+    <div class="modal fade bd-example-modal-lg" id="best17" tabindex="-1" role="dialog" aria-labelledby="best17Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best17Label">부끄부끄</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/뭘봐2.jpg">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#부끄부끄</span>
+                        <span class="badge badge-pill badge-info">#8개</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best18 -->
+    <div class="modal fade bd-example-modal-lg" id="best18" tabindex="-1" role="dialog" aria-labelledby="best18Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best18Label">히히</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/므훗.PNG">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#웃음</span>
+                        <span class="badge badge-pill badge-info">#푹신푹신</span>
+                        <span class="badge badge-pill badge-info">#주인 잘자네</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- best19 -->
+    <div class="modal fade bd-example-modal-lg" id="best19" tabindex="-1" role="dialog" aria-labelledby="best19Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best19Label">아련</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/아련~.PNG">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#아련</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- best21 -->
+    <div class="modal fade bd-example-modal-lg" id="best21" tabindex="-1" role="dialog" aria-labelledby="best21Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best21Label">너 배 내 배</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/배보다 뚜쥬.jpg">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#배</span>
+                        <span class="badge badge-pill badge-info">#배</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best22 -->
+    <div class="modal fade bd-example-modal-lg" id="best22" tabindex="-1" role="dialog" aria-labelledby="best22Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best22Label">새침</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/새침.jpg">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#옆태미견</span>
+                        <span class="badge badge-pill badge-info">#새침</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- best24 -->
+    <div class="modal fade bd-example-modal-lg" id="best24" tabindex="-1" role="dialog" aria-labelledby="best24Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best24Label">여름</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/시원해.jpg">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#여름</span>
+                        <span class="badge badge-pill badge-info">#덥다 더워</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best25 -->
+    <div class="modal fade bd-example-modal-lg" id="best25" tabindex="-1" role="dialog" aria-labelledby="best25Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best25Label">엄마품</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/엄마 품은 내거야.jpg">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#엄마품</span>
+                        <span class="badge badge-pill badge-info">#행복해</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- best28 -->
+    <div class="modal fade bd-example-modal-lg" id="best28" tabindex="-1" role="dialog" aria-labelledby="best28Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best28Label">기절</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/눈뜨고 자기.PNG">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#기절</span>
+                        <span class="badge badge-pill badge-info">#숙취</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best29 -->
+    <div class="modal fade bd-example-modal-lg" id="best29" tabindex="-1" role="dialog" aria-labelledby="best29Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best29Label">행복해</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/좋은아침.jpg">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#귀요미</span>
+                        <span class="badge badge-pill badge-info">#인생샷</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best30 -->
+    <div class="modal fade bd-example-modal-lg" id="best30" tabindex="-1" role="dialog" aria-labelledby="best30Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best30Label">호피담요</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/호피망토 뚜쥬.jpg">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#호피</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best31 -->
+    <div class="modal fade bd-example-modal-lg" id="best31" tabindex="-1" role="dialog" aria-labelledby="best31Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best31Label">흠냥</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/흠냥.JPG">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#꿀잠</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best32 -->
+    <div class="modal fade bd-example-modal-lg" id="best32" tabindex="-1" role="dialog" aria-labelledby="best32Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title float-center" id="best32Label">사고뭉치 뚜쥬</h5>
+                    <span class="close btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <img class="rounded" src="img/사고뭉치.png">
+                    <div>
+                        <span class="float-right btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart text-danger heart_off" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill text-danger heart_on" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                            </svg>
+                        </span>
+                        <span class="badge badge-pill badge-info">#사고뭉치</span>
+                        <span class="badge badge-pill badge-info">#추억</span>
+                        <span class="badge badge-pill badge-info">#나 잘해찌</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="" id="foot_info">
+            <div id="foot_title">Lovely Touju</div>
+            <div>뚜쥬와 함께했던 소중한 추억을 기억하며</div>
+            <div>~2020.11.06 🐶💤</div>
+        </div>
+        <div class="" id="foot_assist">
+            <div id="assist">Family</div>
+            <div>hyunjung Kim</div>
+            <div>jeongwon Eom</div>
+            <div>seyoon Eom</div>
+            <div>Touju</div>
+        </div>
+        <div class="" id="foot_write">
+            <div id="write">Producer</div>
+            <div>Bongu Kang</div>
+            <div>For the beloved Touju</div>
+            <div>gaeteol93@naver.com</div>
+            <div>010-0000-0000</div>
+        </div>
+    </div>
+</div>
+
+<div id="fake_Footer">
+    
+</div>
+<script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
